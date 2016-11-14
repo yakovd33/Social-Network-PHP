@@ -1,0 +1,90 @@
+#sidebar {
+    width: 320px;
+    position: fixed;
+    top: 70px;
+}
+
+.sidebar-widget {
+    background-color: #fff;
+    box-shadow: 1px 2px 1px lightgrey;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #666;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.sidebar-widget .widget-wrap {
+    padding: 8px;
+}
+
+#sidebar-force-user-to-fill-data .widget-wrap > a {
+    color: #888;
+}
+
+#sidear-ads {
+    
+}
+
+#sidebar-ads .ad {
+    background-color: #fff;
+    box-shadow: 1px 2px 1px lightgrey;
+    border-radius: 2px;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 5px;
+}
+
+#sidebar-ads .ad img {
+    max-width: 100%;
+}
+
+#sidebar-ads .ad .ad-details {
+    
+}
+
+#sidebar-ads .ad .ad-details .ad-link {
+    color: #222;
+    text-decoration: none;
+    margin: 3px 0px;
+    font-size: 16px; 
+}
+
+#sidebar-ads .ad .ad-details .link-details {
+    font-size: 13px; 
+}
+
+#sidebar-ads .ad .ad-details .ad-link:hover {
+    text-decoration: underline;
+    color: #737dee;
+}
+
+#sidebar footer {
+    margin-top: 5px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#sidebar footer #footer-credit {
+    font-weight: bold;
+}
+
+#sidebar footer #footer-credit, #sidebar footer #footer-links {
+    display: inline;
+    color: #555;
+    word-break: break-word;
+    font-size: 14px;
+    line-height: 2px;
+}
+
+#sidebar footer #footer-links a {
+    text-decoration: none;
+    color: #555;
+    margin-right: 4px;
+}
+
+#sidebar footer #footer-links a:hover {
+    text-decoration: underline;
+    color: #222;
+}

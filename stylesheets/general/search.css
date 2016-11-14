@@ -1,0 +1,88 @@
+.results_wrap {
+    padding: 0px;
+}
+
+#search-select-cat {
+    margin-bottom: 5px;
+}
+
+#search-select-cat .search-cat-item {
+    display: inline-block;
+    list-style: none;
+    padding: 7px;
+    border-radius: 2px;
+}
+
+#search-select-cat .search-cat-item a {
+    color: #444;
+}
+
+#search-select-cat .search-cat-item.selected {
+    border-bottom: 2px solid #9297ce;
+    background-color: #4f4b86;
+}
+
+#search-select-cat .search-cat-item.selected a {
+    color: #fff;
+}
+
+.search-result {
+    background-color: #fff;
+    box-shadow: 1px 1px 1px lightgrey;
+    border-radius: 2px;
+    padding: 10px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.search-result a {
+    text-decoration: none;
+    color: #222;
+}
+
+.search-result a:hover {
+    text-decoration: underline;
+}
+
+.search-result.people .user-details .pp {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.search-result.people .user-details {
+    display: inline-block;
+}
+
+.search-result.people .user-details .textual {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.search-result.people .user-details .textual .fullname {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.search-result.people .user-details .textual .username {
+    font-size: 13px;
+}
+
+.search-result.people .people-options {
+    display: inline-block;
+    float: right;
+}
+
+.search-result.people .people-options .people-option {
+    cursor: pointer;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.search-result.people .people-options .people-option:hover {
+    color: #222;
+}

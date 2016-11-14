@@ -1,0 +1,30 @@
+#user-pictures {
+    width: 75%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#user-pictures .picture {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    flex-grow: 1;
+    width: 120px;
+    height: 120px;
+    margin: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 2px;
+    min-width: 120px;
+}
+
+@media screen and(max-width: 1000px) {
+    #user-pictures {
+        width: 95%;
+    }
+}

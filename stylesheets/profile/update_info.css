@@ -1,0 +1,110 @@
+.edit_about_item {
+    display: none;
+    margin-top: 4px;
+}
+
+.about-item {
+    position: relative;
+}
+
+.about-item .toggle-edit {
+    padding: 6px 8px;
+    display: inline-block;
+    float: right;
+    background-color: #ebebeb;
+    cursor: pointer;
+    display: none;
+}
+
+.about-item .toggle-edit:hover {
+    background-color: #cecece;
+}
+
+.edit_about_item #edit_country {
+    width: 100%;
+}
+
+.edit_about_item #edit_country .title, .edit_about_item #edit_city .title, #relationship-options {
+    padding: 5px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #cecece;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.edit_about_item #edit_country .title.toggled {
+    background-color: rgba(115, 125, 238, 0.4);
+    border: none;
+    padding: 6px;
+    z-index: 9999999999;
+}
+
+.edit_about_item #edit_country .selection-box, .edit_about_item #edit_city .selection-box {
+    display: none;
+}
+
+.edit_about_item #edit_country .selection-box #filter_countries {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.edit_about_item #edit_country .selection-box #filtered-countries {
+    width: 100%;
+    max-height: 200px;
+}
+
+.edit_about_item #edit_country .selection-box #filtered-countries option {
+    padding: 5px;
+}
+
+.edit_about_item #edit_country .selection-box #filtered-countries option:checked {
+    background-color: #737dee;
+    color: red;
+}
+
+.submit-update-info {
+    background-color: #737dee;
+    padding: 5px 10px;
+    border: 1px solid #545cb3;
+    border-radius: 2px;
+    box-shadow: 0.5px 0.5px 1px lightgrey;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 4px;
+    float: right;
+}
+
+.filter-feedback {
+    padding: 5px;
+    background-color: #C7CBF8;
+    color: #333;
+    font-size: 12px;
+    border-left: 1px solid #A9A9A9;
+    border-right: 1px solid #A9A9A9;
+}
+
+/* Update Bio */
+#update-bio-input {
+    border: 1px solid lightgrey;
+    padding: 6px;
+    float: right;
+    width: 100%;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-style: normal;
+    background-color: #fff;
+}
+
+/* Update Relationship Status */
+#relationship-options {
+    float: right;
+    width: 100%;
+    margin: 3px;
+    box-sizing: border-box;
+}

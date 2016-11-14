@@ -1,0 +1,101 @@
+#guest-nav {
+  height: 80px;
+  width: 100%;
+  box-shadow: 0px 0px 30px grey;
+  display: flex;
+  align-items: center;
+  z-index: 980;
+  background-color: #4f4b86;
+}
+
+#guest-nav #site-logo {
+  background-image: url("../../../media/site_pictures/logo-white.png");
+  height: 40px;
+  width: 108px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px 20px;
+}
+
+#guest-nav #site-search-wrap {
+  background-color: rgba(255,255,255,0.88);
+  padding: 8px;
+  border-radius: 2px;
+  width: 40%;
+  color: #222;
+  cursor: text;
+  margin-left: 60px;
+}
+
+#guest-nav #site-search-wrap > * {
+  display: inline-block;
+}
+
+#site-search-wrap #search-input {
+  background: transparent;
+  border: none;
+  margin-left: 10px;
+  color: #222;
+}
+
+#guest-nav #site-search-wrap #search-icon {
+  font-size: 17px;
+}
+
+#guest-nav #login-wrap {
+  width: 500px;
+}
+
+#guest-nav #login-wrap #login-info input {
+  display: inline-block;
+  padding: 7px 3px;
+  box-sizing: border-box;
+  border: 1px solid #444a9c;
+  border-radius: 3px;
+}
+
+#guest-nav #login-wrap #login-info #remember-me-wrap {
+  vertical-align: middle;
+}
+
+#guest-nav #login-wrap #login-info #remember-me-wrap label {
+  color: #fff;
+  font-size: 11px;
+  display: flex;
+  margin-top: 5px;
+}
+
+#guest-nav #login-wrap #login-info #remember-me-wrap label input {
+  margin-right: 6px;
+  margin-top: 2px;
+}
+
+#guest-nav #login-wrap #login-info #forgot-password {
+  vertical-align: middle;
+}
+
+#guest-nav #login-wrap #login-info #forgot-password a {
+  color: #fff;
+  font-size: 11px;
+  margin-left: 3px;
+  line-height: 20px;
+}
+
+#guest-nav #login-wrap #submit-login {
+  padding: 5.5px 9px;
+  text-align: center;
+  background-color: #5960B9;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #444a9c;
+  margin-left: 15px;
+}
+
+.site-wrap {
+  top: 10px !important;
+}
+
+#website-top-nav-logo {
+  top: calc(80px / 2 - (46px / 2)) !important;
+}

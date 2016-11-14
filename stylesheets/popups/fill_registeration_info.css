@@ -1,0 +1,29 @@
+.levels {
+    height: 100%;
+    background-color: rgba(115, 125, 238, 0.13);
+    width: 120px;
+    display: inline-block;
+}
+
+.levels .level {
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.levels .level:hover {
+    background-color: rgba(115, 125, 238, 0.14);
+}
+
+#fill_wrap {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+
+#fill_wrap .fill {
+    display: none;   
+}
+
+#fill_wrap .fill.current {
+    display: block;
+}

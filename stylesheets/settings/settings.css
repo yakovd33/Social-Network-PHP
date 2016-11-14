@@ -1,0 +1,186 @@
+#settings-menu {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px lightgrey;
+    border-radius: 2px;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 5px;
+}
+
+.tab-cat {
+    margin-bottom: 3px;
+    display: block;
+    line-height: 30px;
+    color: #888;
+}
+
+#settings-menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+#settings-menu li {
+    list-style-type: none;
+    padding-left: 17px !important;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+#settings-menu li:hover {
+    background-color: rgba(115, 125, 238, 0.1);
+}
+
+#settings-menu li.selected {
+    background-color: rgba(115, 125, 238, 0.1);
+}
+
+#settings-menu li .settings-menu-item-icon {
+    width: 20px;
+    display: inline-block;
+}
+
+.section {
+    margin-bottom: 4px;
+}
+
+.section .section-content-wrap {
+    display: none;
+}
+
+.section .section-content-toggle {
+    background-color: #fff;
+    border-radius: 2px 2px 0px 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 9px;
+    cursor: pointer;
+    color: #444;
+}
+
+.section .section-content-toggle:not(:first-child) {
+    margin-top: 5px;
+}
+
+.section .section-content-toggle > * {
+    display: inline-block;
+}
+
+.section .section-content-toggle > .edit-icon {
+    float: right;
+    display: none;
+}
+
+.section .section-content-wrap {
+    border-top: 1px solid #e3e3e3;
+    background-color: #fff;
+    padding: 9px;
+}
+
+.section .update-info-label {
+    display: block;
+}
+
+.section .info-update-input {
+    width: 70%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+input.info-update-input:focus {
+    border: 1px solid #737dee;
+}
+
+.update-current-setting {
+    background-color: #737dee;
+    padding: 5px 10px;
+    border: 1px solid #545cb3;
+    border-radius: 2px;
+    box-shadow: 0.5px 0.5px 1px lightgrey;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+}
+
+/* Select posts scope */
+ .select-post-scope {
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     -o-user-select: none;
+     user-select: none;
+}
+
+ .select-post-scope .selected-scope {
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: 0.5px 0.5px 1px lightgrey;
+    border: 1px solid #ebebeb;
+    font-size: 14px;
+    cursor: pointer; }
+    
+ .select-post-scope .selected-scope .fa-angle-down {
+    margin-left: 10px; }
+ .select-post-scope .selected-scope.toggled {
+    background-color: #737dee;
+    padding: 5px 10px;
+    border: 1px solid #545cb3;
+    border-radius: 2px;
+    box-shadow: 0.5px 0.5px 1px lightgrey;
+    color: #fff; }
+    
+ .select-post-scope #list {
+    padding: 3px 0px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px lightgrey;
+    border: 1px solid #ebebeb;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+    
+ .select-post-scope #list h6 {
+    padding: 0px 15px; 
+}
+    
+ .select-post-scope #list .scope-list-item {
+    display: block;
+    padding: 10px 15px;
+    cursor: pointer; 
+}
+
+.scope-list-item i, .selected-scope i {
+    margin-right: 5px;
+}
+    
+ .select-post-scope #list .scope-list-item:hover {
+    background-color: #737dee;
+    color: #fff; 
+}
+    
+ .select-post-scope #list i {
+    margin-right: 10px; 
+}
+
+ .select-post-scope #list.toggled {
+    display: block; 
+}
+
+.toggle-option {
+    color: #737dee;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.toggle-option:hover {
+    text-decoration: underline;
+}

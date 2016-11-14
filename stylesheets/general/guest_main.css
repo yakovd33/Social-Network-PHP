@@ -1,0 +1,18 @@
+@media screen and(min-width: 1000px) {
+  .site-wrap {
+    top: 100px !important;
+  }
+
+  #sidebar {
+    top: 100px !important;
+  }
+}
+
+#sidebar {
+  position: static !important;
+  top: 10px !important;
+}
+
+#poups-bg {
+  display: none;
+}

@@ -1,0 +1,154 @@
+#update-pp-ppup {
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px lightgrey;
+    width: 100%;
+    word-break: break-word;
+    border-radius: 2px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    margin-top: -150px;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+}
+
+#update-pp-ppup .wrap {
+    position: relative;
+    height: 100%;
+}
+
+#tab-triggers {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    flex-direction: row;
+}
+
+#tab-triggers .tab-trigger {
+    font-size: 19px;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#tab-triggers .tab-trigger:hover {
+    background-color: rgba(115, 125, 238, 0.1);
+    text-decoration: underline;
+}
+
+#tab-triggers .tab-trigger .detail {
+    margin-left: 7px;
+}
+
+#tabs-wrap .update-pp-ppup-tab {
+    display: none;
+}
+
+#tabs-wrap .update-pp-ppup-tab.toggled {
+    display: block;
+}
+
+#update-pp-ppup .wrap input[type="submit"] {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #737dee;
+    padding: 5px 10px;
+    border: 1px solid #545cb3;
+    border-radius: 2px;
+    box-shadow: 0.5px 0.5px 1px lightgrey;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Tabs Design */
+/* Uploded pictures tab */
+#main-tab-aka-select-from-uploaded-pictures  .uploded-pictures {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 207px;
+}
+
+#main-tab-aka-select-from-uploaded-pictures .uploded-pictures .uploded-picture {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    flex-grow: 1;
+    width: 80px;
+    height: 120px;
+    margin: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#main-tab-aka-select-from-uploaded-pictures .uploded-pictures .uploded-picture:hover {
+    border: 4px solid #737dee;
+}
+
+#main-tab-aka-select-from-uploaded-pictures .uploded-pictures .uploded-picture.selected {
+    border: 4px solid #737dee !important;
+}
+
+#main-tab-aka-select-from-uploaded-pictures #show-more-uploded-pictures {
+    color: #545cb3;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#main-tab-aka-select-from-uploaded-pictures #show-more-uploded-pictures:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+    .tab-trigger .detail {
+        display: none;
+    }   
+}
+
+/* Choose From Coumputer */
+#trigger-update-pp-choose-from-pc, #trigger-update-pp-capture {
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -14px;
+    background-color: #737dee;
+    padding: 5px 10px;
+    border: 1px solid #545cb3;
+    border-radius: 2px;
+    box-shadow: 0.5px 0.5px 1px lightgrey;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;   
+}
+
+#preview-selected-image-to-upload-as-pp, #preview-captured-image-to-set-as-pp {
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #ebebeb;
+    width: 200px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -100px;
+}
